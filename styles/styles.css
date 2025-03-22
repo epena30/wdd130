@@ -1,21 +1,30 @@
-nav {background-color: darkblue; padding: 10px;}
+:root {
+    --clr--darkblue: darkblue;
+    --clr--white: #eee;
+    --padding: 10px;
+    --height: auto;
+    --width: 150px;
+    --border: 1px;
+   
 
-nav a {color: white; display: block; padding: 20px;} 
+nav {background-color: var(--clr--darkblue); padding: 10px;}
 
-h1 {color: darkblue;}  
+nav a {color: var(--clr--white); display: block; padding: 20px;} 
 
-img {width: 150px; height: auto; border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray;}
+h1 {color: var(--clr--darkblue);}  
 
-p {padding: 10px;}
+img {width: var(--widht); height: var(--height); border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray;}
+
+p {padding: var(--padding);}
 
 main {max-width: 840px;}
 
-aside {width: 20rem; margin: 1rem; border: 1px solid rgb(0 0 0 / 0.2); /* 1 */; padding: 1rem; background-color: #eee; color: #333; text-align: center;}
+aside {width: 20rem; margin: 1rem; border: var(--border) solid rgb(0 0 0 / 0.2); /* 1 */; padding: 1rem; background-color: var(--clr--white); color: #333; text-align: center;}
 
-aside img { width: 200px; height: auto;}
+aside img { width: 200px; height: var(--height);}
 
-main img { width: 150px; height: auto;}
+main img { width: var(--width); height: var(--height);}
 
 p {padding: 0;}
 
-footer {margin-top: 15px; border-top: 1px solid #000; text-align: center;}
+footer {margin-top: 15px; border-top: var(--border) solid #000; text-align: center;}
