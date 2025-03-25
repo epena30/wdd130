@@ -5,7 +5,7 @@
     --height: auto;
     --width: 150px;
     --border: 1px;
-   
+}
 
 nav {background-color: var(--clr--darkblue); padding: 10px;}
 
