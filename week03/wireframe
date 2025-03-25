@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Wireframe Practice</title>
-        <meta name="Home Page Enhancement " content="Erika Pena WEb Development-WDD130 Rafting site example">
+        <meta name="Home Page" content="Erika Pena WEb Development-WDD130 Rafting site example">
     </head>    
     <body>
     <heather>
-          <img src="wdd130\wwr\images\Logo.jpg" alt="logo">
+        <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/z-raftingcompas.jpg" alt="logo">
         <nav>
             <a href="#">Home</a>
             <a href="#"></Link></a>
