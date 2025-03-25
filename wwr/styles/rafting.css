@@ -20,7 +20,7 @@ main {
 	margin: 1.0rem auto;
 	font-family: var(--font-family);
 	font-size: large;
-	color:#f18701;}
+	color:#f18701; display: block; width: 100%; height: auto;}
 
 h1 { text-align: center; font-size: 3.0rem;}
 
