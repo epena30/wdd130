@@ -1,6 +1,6 @@
 
 :root {
-    --clr--: lightblue;
+    --clr--background: #b5e2fa;
     --clr--: #ffd400;
 	--clr: #f18701;
     --padding: 10px;
@@ -9,11 +9,13 @@
     --border: 1px;
 	--font-family: Passion One, Neuton}
 
+body {background-color: #b5e2fa;}
+
 *
 {margin: 0; padding: 0;}
 
 nav a
- {font-family: var(--font-family); font-size: larger; color: #f18701;}
+ {font-family: var(--font-family); font-size: x-large; color: #f18701;}
 
 main {
 	max-width: 600px;	
@@ -23,7 +25,7 @@ main {
 	color:#f18701; display: block; width: 100%; height: auto;}
 article {width: 40rem;  text-align: center;}
 article img { width: 100%; height: 100%; padding: 5px;}
-main img { width: 100%; height: auto;}
+main img { width: 100%; height: auto; font-weight: ;}
 
 
 h1 { text-align: center; font-size: 3.0rem;}
@@ -42,15 +44,21 @@ h1 { text-align: center; font-size: 3.0rem;}
 	box-shadow: 0 0 30px #111;
 	opacity: 0.9;}
 
-h2 { border-bottom: 1px solid #000; margin-bottom: 0.3rem; color: #f18701;}
+h2 { margin-bottom: 0.9rem; color: #f18701;}
 
 footer {
 	position: fixed;
 	bottom: 0;
-	margin: 1rem;
+	margin: 2rem;
 	border-top: 1px;
-	padding: 0.5rem;
+	padding: 0.10rem;
 	color: #f18701;
 	font-weight: 700;
 	font-style: Neuton;
 	text-decoration: none;}
+
+nav a img {width: 35px;}
+
+	
+
+	
