@@ -5,7 +5,7 @@
 	--accent1-color: #f18701;
 	--accent2-color: #ffd400;
 	--text-color: #f18701;
-	--font-family:Passion One, Neuton;
+	--font-family: https://fonts.google.com/specimen/Passion+One?query=Passion+One, https://fonts.google.com/specimen/Neuton?query=Neuton;
 }
 
 body {
@@ -26,28 +26,22 @@ main {
 	color:#f18701; display: block; width: 100%; height: auto;}
 
 
-nav a
- {font-family: var(--font-family); font-size: x-large; color: #f18701;}
-
-
 article {
 	position: absolute; 
-	bottom: 0.5px; 
-	left: 5px;
+	bottom: 75px; 
+	left: 45px;;
 	background-color: var(--primary-color);
-	padding: 5px;
-	border:1px;
-	font: size 1.2em;
+	font-size: 1.0em;
 	text-align: left;
+	padding: 5px;
 }
-
 
 article img {
 	float: right;
+	margin-left: 20px;
 	width: 150px;
 	height: auto;
 	border: 5px;
-	margin-top: 10px;
 	
 	
 section {
@@ -55,15 +49,19 @@ section {
 	top: 20px;
 }
 
-h1 { text-align: right; 
-	font-size: 3.0rem; 
+h1 { 
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	text-align: right; 
+	font-size: 3.0rem; 
 
 }
 
+.hero-image {
+	display: block;
+	width: 100%;
+	height: auto;
 
+}
 
 .hero{
 	position: relative;
@@ -74,16 +72,17 @@ h1 { text-align: right;
 
 .hero h1{
 	position: absolute;
-	top: 3%;
-	left: 50px;
-	font-size: 4rem;
-	width: 30%;
+	top: 50%;
+	left: 80px;
+	font-size: 3rem;
+	margin: 0;
+
 }
 
 h2 { 
 	color: var(--primary-color);
 	font-size: 1.2rem;
-	bottom: 5px;
+	bottom: 5px;	
 
 }
 
@@ -92,11 +91,20 @@ footer {
 	bottom: 1px;
 	margin: 0.15px;
 	border-top: 1px;
-	padding: 1.0rem;
+	padding: 10px;
 	color: #f18701;
-	font-weight: 600;
-	font-style: Neuton;}
-
 }
 
-a {text-decoration: none;}	
+
+
+nav a
+ {
+	font-family: var(--font-family); 
+	color: #f18701;	
+	margin: 0.15px;
+	size: 24px;
+}
+
+ a {text-decoration: none;}
+
+
