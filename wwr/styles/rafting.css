@@ -5,106 +5,137 @@
 	--accent1-color: #f18701;
 	--accent2-color: #ffd400;
 	--text-color: #f18701;
-	--font-family: https://fonts.google.com/specimen/Passion+One?query=Passion+One, https://fonts.google.com/specimen/Neuton?query=Neuton;
+	--font-family:passion One, Neuton;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color:var(--primary-color);
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-size: 1.4rem;
+    
 }
 
-body {
-	margin: 0;
-	background-color:var(--primary-color);
-	font-family: var(--font-family);
-	color: var(--text-color);
-	font-size: 1.4rem;
+header {
+    padding: 10px;
+    text-align: left;
+
+
+}
+
+header.logo img {
+    max-width: 200px;
 	
 }
 
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-size: 18px;
+
+
+}
 
 main {
-	max-width: 600px;	
-	margin: 1.0em; auto;
-	font-family: var(--font-family);
-	font-size: large;
-	color:#f18701; display: block; width: 100%; height: auto;}
+    max-width: 800px;   
+    margin: 2.0em;
+    font-family: var(--font-family);
+    font-size: large;
+    color:#f18701; display: block; width: 100%; height: auto;
 
+}
 
 article {
-	position: absolute; 
-	bottom: 75px; 
-	left: 45px;;
-	background-color: var(--primary-color);
-	font-size: 1.0em;
-	text-align: left;
-	padding: 5px;
+    position: absolute; 
+    bottom: 160px; 
+    left: 60px;;
+    background-color: var(--primary-color);
+    font-size: 1.0em;
+    text-align: left;
+	width: 74%;
 }
 
+.section {
+top: 20px;
+left: 35px;
+
+    
+    
+}
 article img {
-	float: right;
-	margin-left: 20px;
-	width: 150px;
-	height: auto;
-	border: 5px;
-	
-	
+    float: right;
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    border: 5px;
+    
+}   
 section {
-	padding: 40px 20px;
-	top: 20px;
-}
-
-h1 { 
-	position: absolute;
-	text-align: right; 
-	font-size: 3.0rem; 
+    padding: 40px 20px;
 
 }
 
-.hero-image {
-	display: block;
-	width: 100%;
-	height: auto;
+.herodiv {
+    margin: 20px;
+
+.h1 { 
+    position: absolute;
+    text-align: right; 
+    font-size: 3.0rem; 
+	width: 50px;
+	
+
+}
+
+.herodiv img {
+    display: block;
+    width: 100%;
+    height: 300px;
 
 }
 
 .hero{
-	position: relative;
-	height: 600px;
-	padding: 50px 20px;
-	text-align: center;
+    position: relative;
+    height: 600px;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .hero h1{
-	position: absolute;
-	top: 50%;
-	left: 80px;
-	font-size: 3rem;
-	margin: 0;
+    position: absolute;
+	left: 150x;
 
 }
 
 h2 { 
-	color: var(--primary-color);
-	font-size: 1.2rem;
-	bottom: 5px;	
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    bottom: 5px;    
 
 }
 
 footer {
-	position: relative;
-	bottom: 1px;
-	margin: 0.15px;
-	border-top: 1px;
-	padding: 10px;
-	color: #f18701;
+    position: fixed;
+    bottom: 1px;
+    margin: 0.15px;
+    border-top: 1px;
+    padding: 10px;
+    color: #f18701;
 }
 
-
-
-nav a
- {
-	font-family: var(--font-family); 
-	color: #f18701;	
-	margin: 0.15px;
-	size: 24px;
+nav a {
+    font-family: var(--font-family); 
+    color: #f18701; 
+    margin: 0.15px;
+    size: 30px;
 }
 
  a {text-decoration: none;}
-
-
