@@ -22,13 +22,11 @@ body {
 header {
     padding: 10px;
     text-align: left;
-
-
 }
 
 header.logo img {
     max-width: 200px;
-	
+
 }
 
 header nav {
@@ -40,8 +38,6 @@ header nav a {
     padding: 10px 20px;
     margin: 0 15px;
     font-size: 18px;
-
-
 }
 
 main {
