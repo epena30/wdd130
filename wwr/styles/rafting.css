@@ -51,12 +51,13 @@ main {
 
 article {
     position: absolute; 
-    bottom: 180px; 
-    left: 50px;;
+    bottom: 80px; 
+    left: 120px;
     background-color: var(--primary-color);
     font-size: 1.0em;
     text-align: left;
-	width: 37%;
+	width: 85%;
+    padding: 20px;
 }
 
 .section {
@@ -71,19 +72,12 @@ article img {
     width: 150px;
     height: auto;
     border: 5px;
-    
 }  
-
-.herodiv {
-    margin: 20px;
-}
 
 .h1 { 
     position: absolute;
     text-align:center; 
     font-size: 5.0rem; 
-	width: 30px;
-    top: 150px;
 
 }
 
@@ -94,11 +88,11 @@ article img {
 
 }
 
-.hero{
+.hero {
     position: relative;
-    height: 600px;
-    padding: 50px 20px;
-    text-align: center;
+    height: 500px;
+    padding: 50px;
+    right: px;
 }
 
 .hero h1 {
