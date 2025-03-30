@@ -51,7 +51,7 @@ main {
 
 article {
     position: absolute; 
-    bottom: 160px; 
+    bottom: 180px; 
     left: 50px;;
     background-color: var(--primary-color);
     font-size: 1.0em;
@@ -60,11 +60,10 @@ article {
 }
 
 .section {
-top: 20px;
+top: 50px;
 left: 35px;
-
-    
-    
+padding: 40px 20px;
+  
 }
 article img {
     float: right;
@@ -73,20 +72,18 @@ article img {
     height: auto;
     border: 5px;
     
-}   
-section {
-    padding: 40px 20px;
-
-}
+}  
 
 .herodiv {
     margin: 20px;
 }
+
 .h1 { 
     position: absolute;
-    text-align: right; 
-    font-size: 3.0rem; 
+    text-align:center; 
+    font-size: 5.0rem; 
 	width: 30px;
+    top: 150px;
 
 }
 
@@ -107,16 +104,15 @@ section {
 .hero h1 {
     position: absolute;
 	left: 150x;
+}
 
-h2 { 
+.h2 { 
     color: var(--primary-color);
     font-size: 1.5rem;
     bottom: 5px;    
-
 }
 
 footer {
-    position:fixed;
     bottom: 1px;
     margin: 0.15px;
     border-top: 1px;
@@ -127,8 +123,7 @@ footer {
 nav a {
     font-family: var(--font-family); 
     color: #f18701; 
-    margin: 0.15px;
-    size: 30px;
+    font-size: 4.0rem;
+ 
 }
 
- a {text-decoration: none;}
