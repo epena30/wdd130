@@ -5,7 +5,7 @@
 	--accent1-color: #f18701;
 	--accent2-color: #ffd400;
 	--text-color: #f18701;
-	--font-family:passion One, Neuton;
+	--font-family:"passion One", "Neuton;"
 }
 * {
 	margin: 0;
@@ -56,11 +56,11 @@ main {
 article {
     position: absolute; 
     bottom: 160px; 
-    left: 60px;;
+    left: 50px;;
     background-color: var(--primary-color);
     font-size: 1.0em;
     text-align: left;
-	width: 74%;
+	width: 37%;
 }
 
 .section {
@@ -90,8 +90,8 @@ section {
     position: absolute;
     text-align: right; 
     font-size: 3.0rem; 
-	width: 50px;
-	
+	width: 30px;
+    ;
 
 }
 
@@ -117,7 +117,7 @@ section {
 
 h2 { 
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     bottom: 5px;    
 
 }
