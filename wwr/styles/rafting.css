@@ -5,7 +5,7 @@
 	--accent1-color: #f18701;
 	--accent2-color: #ffd400;
 	--text-color: #f18701;
-	--font-family:"passion One" "Neuton"
+	--font-family:"passion One, Neuton"
 }
 * {
 	margin: 0;
@@ -81,7 +81,7 @@ section {
 
 .herodiv {
     margin: 20px;
-
+}
 .h1 { 
     position: absolute;
     text-align: right; 
@@ -104,10 +104,9 @@ section {
     text-align: center;
 }
 
-.hero h1{
+.hero h1 {
     position: absolute;
 	left: 150x;
-}
 
 h2 { 
     color: var(--primary-color);
@@ -117,7 +116,7 @@ h2 {
 }
 
 footer {
-    position: fixed;
+    position:fixed;
     bottom: 1px;
     margin: 0.15px;
     border-top: 1px;
