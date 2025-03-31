@@ -7,10 +7,12 @@
 	--text-color: #f18701;
 	--font-family:"passion One, Neuton"
 
+
 }
 * {
 	margin: 0;
 	padding: 0;
+
 }
 body {
     background-color:var(--primary-color);
@@ -18,16 +20,18 @@ body {
     color: var(--text-color);
     font-size: 1.4rem;
     
+    
 }
 
 header {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 200px 2fr 2fr;
-    grid-gap: 30px;
+    grid-gap: 60px;
     padding: 10px;
     align-items: center;
     border-bottom: 2px solid; 
+
 }
 
 
@@ -60,8 +64,8 @@ main {
 
 article {
     position: absolute; 
-    bottom: 80px; 
-    left: 120px;
+    bottom: 70px; 
+    left: 110px;
     background-color: var(--primary-color);
     font-size: 1.0em;
     text-align: left;
@@ -69,9 +73,12 @@ article {
     padding: 20px;
 }
 
+
 .section {
     left: 35px; 
     padding: 40px 20px;
+ 
+
   
 }
 article img {
@@ -80,6 +87,7 @@ article img {
     width: 150px;
     height: auto;
     border: 5px;
+    
 }  
 
 .navigation {
@@ -95,6 +103,7 @@ article img {
     padding: 20px;
     text-decoration: none;
     font-size: 1.5rem;
+
 }
 
 
@@ -106,19 +115,21 @@ article img {
 .hero {
     position: relative;
     height: 500px;
-    padding: 50px;
+    padding: 40px;
+
 }
 
 .hero h1 {
     position: absolute;
-    right: 250px;
+    right:170px;
     top: 60px;
+ 
 }
 
-.h2 { 
+.hero h2 { 
     color: var(--primary-color);
     font-size: 1.5rem;
-   
+    
 }  
 
 
@@ -145,3 +156,16 @@ nav a {
     margin: 10px 0;
 }
 
+figure {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+}
+
+figure img {
+    width: 400px;
+    height: 300px;
+  
+ }
