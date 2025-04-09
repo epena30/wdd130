@@ -130,7 +130,7 @@ article img {
 .hero h2 { 
     color: var(--primary-color);
     font-size: 1.5rem;
-    
+    border: 0;
 }  
 
 
@@ -198,7 +198,7 @@ fieldset {
 }
 
 legend {
-    padding: 0.5rem;
+    padding: 1.5rem;
     font-size: 1.3em;
 }
 
@@ -225,7 +225,7 @@ input[input="checkbox"] {
 button {
     margin: 1rem;
     background-color: lightblue;
-    color: green;
+    color: orange;
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem;
@@ -246,6 +246,7 @@ button:hover {
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
+
 }
 
 .column2 {
