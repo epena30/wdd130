@@ -115,7 +115,8 @@ article img {
 .hero {
     position: relative;
     height: 500px;
-    padding: 40px;
+    padding: 0px;
+
 
 }
 
