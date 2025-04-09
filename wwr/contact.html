@@ -71,12 +71,12 @@
             <fieldset>
                 <legend>Inquiries</legend>
             <div class="form-item column1"></div>
-                <label for="option">Choose from the following options!</label>
-                    <input type="radio">General Inquiry</input>
-                    <input type="radio">Reservation Question</input>
-                    <input type="radio">Website Suggestion</input>
-                </div>         
-                </select> 
+                <label for="inquiry">Inquiry</label>
+                    <input type="radio" id="inquiry" name="feedback_type" value="inquiry">
+                <label for="reservation">Reservation</label>
+                    <input type="radio" id="question" name="feedback_type" value="question">    
+                <label for="website suggestion">Website Suggestion</label>
+                    <input type="radio" id="website suggestion" name="feedback_type" value="website suggestion"> 
             <label for="feedback">Your Message</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
                 <button type="submit">Submit</button>    
@@ -88,7 +88,7 @@
         </form>
     </main>
     <footer>
-         <img src="images/contact Us.png" alt="Contact Us">
+         <img src="images/contact.png" alt="Contact Us">
         <p>©️2025 ◆ Rafting Travel ◆ Erika Pena</p>
         <nav class="Sociallinks">
             <a href="https://facebook.com">
