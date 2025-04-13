@@ -4,7 +4,7 @@
     --secondary-color: #00171f;
 	--accent1-color: #f18701;
 	--accent2-color: #ffd400;
-	--text-color: #f18701;
+	--text-color:black;
 	--font-family:"passion One, Neuton"
 
 
@@ -50,21 +50,20 @@ header nav a {
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 main {
     max-width: 800px;   
     margin: 2.0em;
     font-family: var(--font-family);
-    font-size: large;
-    color:#f18701; display: block; width: 100%; height: auto;
+    color:black; display: block; width: 100%; height: auto;
 
 }
 
 article {
     position: absolute; 
-    bottom: 70px; 
+    bottom: 150px; 
     left: 110px;
     background-color: var(--primary-color);
     font-size: 1.0em;
@@ -114,7 +113,7 @@ article img {
 
 .hero {
     position: relative;
-    height: 500px;
+    height: 600px;
     padding: 0px;
 
 
@@ -139,13 +138,13 @@ footer {
     margin: 0.15px;
     border-top: 1px;
     padding: 10px;
-    color: #f18701;
+    color: black;
     text-align: right;
 }
 
 nav a {
     font-family: var(--font-family); 
-    color: #f18701; 
+    color: black; 
     font-size: 4.0rem;
 }
 
@@ -181,60 +180,58 @@ figure img {
 
 form {
     width: 650px;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
-    display: grid;
+    text-align: center;
 }
 
 fieldset {
-    display: grid;
-    grid-gap: 0.5rem;
-    margin: 1rem;
+    margin: 1.5rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
 }
 
 legend {
-    padding: 1.5rem;
+    padding: 1.6rem;
     font-size: 1.3em;
 }
 
 label, input, button, select, textarea {
-    font-family: lobster;
+    font-family: neuton;
 }
 
 label {
-    text-align: center;
-    padding-right: 1rem;
+    text-align: left;
+    padding-right: 2rem;
 }
 
 input, select, textarea {
-    padding: 0.5rem;
+    padding: 0.8rem;
     font-size: 1.1rem;
 }
 
 input[input="checkbox"] {
-    width:  22px;
-    height: 22px;
+    width:  25px;
+    height: 25px;
     vertical-align: bottom;
 }
 
 button {
     margin: 1rem;
     background-color: lightblue;
-    color: orange;
+    color: black;
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
 
 }
 
 button:hover {
-    background-color: pink;
+    background-color: orga;
 }
 
 
