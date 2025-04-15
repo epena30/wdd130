@@ -77,10 +77,10 @@ article {
 .section {
     left: 35px; 
     padding: 40px 20px;
- 
+   
+    }
 
   
-}
 article img {
     float: right;
     margin-left: 10px;
@@ -297,8 +297,3 @@ div h3 {
 }
 
 
-section h2 {
-    text-align: center;
-    margin: 10px;
-    width: 120%;
-}
